@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowRight, CheckCircle2, PhoneCall, ShieldCheck, Sparkles, Star } from "lucide-react";
@@ -105,16 +106,16 @@ export default function Hero() {
         <div className="relative">
           <div className="hero-video-mask glass-panel relative overflow-hidden rounded-[30px] p-2.5 sm:rounded-[34px] sm:p-3" data-gsap="parallax">
             <div className="relative overflow-hidden rounded-[28px] bg-slate-950">
-              <video
-                autoPlay
-                muted
-                loop
-                playsInline
-                poster={siteConfig.media.heroImage}
-                className="h-[360px] w-full object-cover sm:h-[440px] lg:h-[460px]"
-              >
-                <source src={siteConfig.media.heroVideo} type="video/mp4" />
-              </video>
+              <div className="relative h-[360px] w-full sm:h-[440px] lg:h-[460px]">
+                <Image
+                  src={siteConfig.media.heroImage}
+                  alt="Technician cleaning an air conditioning system"
+                  fill
+                  priority
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 44vw"
+                  className="object-cover"
+                />
+              </div>
               <div className="absolute inset-x-0 bottom-0 flex items-end justify-between gap-4 p-3 sm:p-5">
                 <div className="max-w-[220px] rounded-[22px] border border-white/20 bg-slate-950/60 p-3.5 backdrop-blur sm:max-w-[280px] sm:rounded-[24px] sm:p-4">
                   <p className="text-xs font-semibold uppercase tracking-[0.22em] text-orange-200">
