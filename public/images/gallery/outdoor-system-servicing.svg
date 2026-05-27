@@ -1,0 +1,18 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="40" fill="#F2FBFF"/>
+  <rect x="58" y="58" width="1084" height="784" rx="34" fill="url(#paint0_linear)"/>
+  <rect x="156" y="184" width="420" height="480" rx="34" fill="#0F3D6E"/>
+  <circle cx="366" cy="420" r="126" fill="#EAF7FF"/>
+  <circle cx="366" cy="420" r="74" fill="#38BDF8"/>
+  <path d="M660 214H1004" stroke="#D4EAF7" stroke-width="28" stroke-linecap="round"/>
+  <path d="M660 292H944" stroke="#D4EAF7" stroke-width="28" stroke-linecap="round"/>
+  <rect x="660" y="390" width="328" height="192" rx="30" fill="#FFFFFF" fill-opacity="0.66"/>
+  <text x="156" y="756" fill="#071B3D" font-family="Arial, sans-serif" font-size="68" font-weight="700">Outdoor System Servicing</text>
+  <text x="156" y="814" fill="#2E648F" font-family="Arial, sans-serif" font-size="30" font-weight="600">Outdoor unit maintenance placeholder</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="84" y1="92" x2="1110" y2="832" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FCFEFF"/>
+      <stop offset="1" stop-color="#DAF2FF"/>
+    </linearGradient>
+  </defs>
+</svg>

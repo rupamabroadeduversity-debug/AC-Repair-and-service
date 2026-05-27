@@ -1,0 +1,19 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="40" fill="#EEF9FF"/>
+  <rect x="58" y="58" width="1084" height="784" rx="34" fill="url(#paint0_linear)"/>
+  <rect x="150" y="226" width="440" height="430" rx="34" fill="#0F3D6E"/>
+  <rect x="218" y="292" width="304" height="128" rx="24" fill="#EAF7FF"/>
+  <circle cx="458" cy="356" r="24" fill="#0EA5E9"/>
+  <rect x="664" y="172" width="116" height="484" rx="28" fill="#DCEEF9"/>
+  <rect x="814" y="124" width="116" height="532" rx="28" fill="#DCEEF9"/>
+  <rect x="964" y="220" width="116" height="436" rx="28" fill="#DCEEF9"/>
+  <path d="M674 720H1048" stroke="#D4EAF7" stroke-width="28" stroke-linecap="round"/>
+  <text x="150" y="758" fill="#071B3D" font-family="Arial, sans-serif" font-size="62" font-weight="700">Commercial AC Support</text>
+  <text x="150" y="814" fill="#2E638E" font-family="Arial, sans-serif" font-size="30" font-weight="600">Multi-unit cooling support for offices and retail</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="86" y1="92" x2="1110" y2="832" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FCFEFF"/>
+      <stop offset="1" stop-color="#D8F2FF"/>
+    </linearGradient>
+  </defs>
+</svg>

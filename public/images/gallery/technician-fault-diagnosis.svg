@@ -1,0 +1,21 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="40" fill="#EFFAFF"/>
+  <rect x="58" y="58" width="1084" height="784" rx="34" fill="url(#paint0_linear)"/>
+  <rect x="170" y="176" width="250" height="390" rx="32" fill="#0F3D6E"/>
+  <rect x="236" y="134" width="128" height="90" rx="18" fill="#F4CB57"/>
+  <rect x="498" y="204" width="416" height="300" rx="30" fill="#FFFFFF" fill-opacity="0.68"/>
+  <path d="M536 300H866" stroke="#D2E8F6" stroke-width="28" stroke-linecap="round"/>
+  <path d="M536 380H818" stroke="#D2E8F6" stroke-width="28" stroke-linecap="round"/>
+  <path d="M536 460H768" stroke="#D2E8F6" stroke-width="28" stroke-linecap="round"/>
+  <circle cx="922" cy="252" r="86" fill="#D7F1FF"/>
+  <path d="M684 604H1020" stroke="#D4EAF7" stroke-width="28" stroke-linecap="round"/>
+  <path d="M684 676H950" stroke="#D4EAF7" stroke-width="28" stroke-linecap="round"/>
+  <text x="170" y="754" fill="#071B3D" font-family="Arial, sans-serif" font-size="68" font-weight="700">Technician Fault Diagnosis</text>
+  <text x="170" y="812" fill="#2E648F" font-family="Arial, sans-serif" font-size="30" font-weight="600">On-site repair workflow placeholder</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="84" y1="92" x2="1110" y2="832" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FCFEFF"/>
+      <stop offset="1" stop-color="#DAF2FF"/>
+    </linearGradient>
+  </defs>
+</svg>

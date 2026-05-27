@@ -1,0 +1,25 @@
+<svg width="1400" height="1200" viewBox="0 0 1400 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="1200" rx="48" fill="#EEF9FF"/>
+  <rect x="70" y="70" width="1260" height="1060" rx="40" fill="url(#paint0_linear)"/>
+  <circle cx="1088" cy="254" r="148" fill="#D8F1FF"/>
+  <rect x="140" y="182" width="420" height="760" rx="42" fill="#0B1E45"/>
+  <rect x="226" y="170" width="208" height="128" rx="24" fill="#F4C854"/>
+  <rect x="218" y="332" width="256" height="318" rx="28" fill="#123F72"/>
+  <path d="M294 476L510 446" stroke="#9DD9FF" stroke-width="24" stroke-linecap="round"/>
+  <path d="M270 582L506 546" stroke="#9DD9FF" stroke-width="24" stroke-linecap="round"/>
+  <rect x="640" y="182" width="572" height="292" rx="34" fill="#FFFFFF" fill-opacity="0.66"/>
+  <rect x="708" y="252" width="434" height="82" rx="20" fill="#DCEEF9"/>
+  <circle cx="1068" cy="293" r="20" fill="#0EA5E9"/>
+  <path d="M652 592H1168" stroke="#D4EAF7" stroke-width="32" stroke-linecap="round"/>
+  <path d="M652 688H1100" stroke="#D4EAF7" stroke-width="32" stroke-linecap="round"/>
+  <path d="M652 784H1032" stroke="#D4EAF7" stroke-width="32" stroke-linecap="round"/>
+  <path d="M652 880H964" stroke="#D4EAF7" stroke-width="32" stroke-linecap="round"/>
+  <text x="148" y="1030" fill="#071B3D" font-family="Arial, sans-serif" font-size="78" font-weight="700">Service Standards Team</text>
+  <text x="148" y="1096" fill="#2F648F" font-family="Arial, sans-serif" font-size="34" font-weight="600">Reliable local placeholder for the About page visual</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="102" y1="104" x2="1280" y2="1100" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FCFEFF"/>
+      <stop offset="1" stop-color="#D8F1FF"/>
+    </linearGradient>
+  </defs>
+</svg>

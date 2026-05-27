@@ -1,0 +1,177 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f7efe8;
+  --foreground: #1f1b18;
+  --color-ice: #f7efe8;
+  --color-frost: #fffaf6;
+  --color-sky: #ff6b2c;
+  --color-ocean: #1f1b18;
+  --color-ink: #1f1b18;
+  --color-muted: #6e6259;
+  --color-cream: #fff8f2;
+  --color-peach: #fde4d5;
+  --color-card: rgba(255, 250, 245, 0.9);
+  --ring: rgba(255, 107, 44, 0.24);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: "Geist", "Geist Fallback", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Geist Mono", "Geist Mono Fallback", ui-monospace, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 107, 44, 0.72) rgba(255, 248, 242, 0.85);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  background-image:
+    linear-gradient(180deg, rgba(255, 249, 244, 0.96), rgba(247, 239, 232, 0.98)),
+    radial-gradient(circle at top, rgba(253, 228, 213, 0.95), transparent 38%);
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgba(255, 248, 242, 0.92);
+  border-left: 1px solid rgba(208, 188, 173, 0.25);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, rgba(255, 126, 61, 0.95), rgba(255, 91, 31, 0.95));
+  border-radius: 999px;
+  border: 2px solid rgba(255, 248, 242, 0.92);
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, rgba(255, 138, 79, 1), rgba(255, 102, 41, 1));
+}
+
+::selection {
+  background: rgba(255, 107, 44, 0.18);
+}
+
+a,
+button,
+input,
+textarea,
+select {
+  outline-color: var(--ring);
+}
+
+.section-shell {
+  @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+
+.glass-panel {
+  @apply border backdrop-blur-xl;
+  border-color: rgba(210, 193, 180, 0.55);
+  background: var(--color-card);
+  box-shadow: 0 18px 46px rgba(88, 63, 43, 0.08);
+}
+
+.eyebrow {
+  @apply inline-flex items-center rounded-full px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.28em] backdrop-blur;
+  border: 1px solid rgba(255, 107, 44, 0.14);
+  background: rgba(255, 255, 255, 0.76);
+  color: #d95b22;
+}
+
+.headline-gradient {
+  background: linear-gradient(135deg, #1f1b18 0%, #6a3723 48%, #ff6b2c 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.primary-button {
+  @apply inline-flex items-center justify-center rounded-full px-6 py-3.5 text-sm font-semibold text-white transition duration-300 hover:-translate-y-0.5;
+  background: linear-gradient(135deg, #ff7e3d 0%, #ff5b1f 100%);
+  box-shadow: 0 18px 36px rgba(255, 107, 44, 0.26);
+}
+
+.secondary-button {
+  @apply inline-flex items-center justify-center rounded-full px-6 py-3.5 text-sm font-semibold transition duration-300 hover:-translate-y-0.5;
+  border: 1px solid rgba(195, 176, 161, 0.8);
+  background: rgba(255, 255, 255, 0.8);
+  color: #1f1b18;
+}
+
+.grid-overlay {
+  background-image:
+    linear-gradient(rgba(186, 162, 145, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(186, 162, 145, 0.1) 1px, transparent 1px);
+  background-size: 34px 34px;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.text-pretty {
+  text-wrap: pretty;
+}
+
+.hero-video-mask::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 32px;
+  pointer-events: none;
+  background: linear-gradient(180deg, rgba(31, 27, 24, 0.06), rgba(31, 27, 24, 0.26));
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  scrollbar-width: none;
+}
+
+.message-marquee {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.message-marquee-track {
+  display: inline-flex;
+  min-width: max-content;
+  gap: 3rem;
+  padding-right: 3rem;
+  will-change: transform;
+  animation: message-scroll-left 26s linear infinite;
+}
+
+@keyframes message-scroll-left {
+  0% {
+    transform: translateX(100vw);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .message-marquee-track {
+    animation: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .section-shell {
+    @apply px-4;
+  }
+}

@@ -1,0 +1,26 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="40" fill="#EAF7FF"/>
+  <rect x="64" y="64" width="1072" height="772" rx="32" fill="url(#paint0_linear)"/>
+  <circle cx="931" cy="238" r="120" fill="#D7F0FF"/>
+  <rect x="118" y="472" width="420" height="238" rx="28" fill="#071B3D" fill-opacity="0.92"/>
+  <rect x="186" y="222" width="196" height="274" rx="24" fill="#113E72"/>
+  <rect x="214" y="160" width="140" height="92" rx="20" fill="#F1C14D"/>
+  <rect x="392" y="256" width="80" height="220" rx="18" fill="#DCEAF7"/>
+  <rect x="408" y="292" width="48" height="64" rx="8" fill="#0EA5E9"/>
+  <path d="M312 310L408 322" stroke="#9BD7FF" stroke-width="18" stroke-linecap="round"/>
+  <path d="M278 390L408 372" stroke="#9BD7FF" stroke-width="18" stroke-linecap="round"/>
+  <rect x="592" y="164" width="430" height="250" rx="30" fill="#FFFFFF" fill-opacity="0.58"/>
+  <rect x="636" y="216" width="342" height="70" rx="18" fill="#DCEAF7"/>
+  <circle cx="912" cy="251" r="20" fill="#0EA5E9"/>
+  <path d="M678 574H962" stroke="#D7ECF9" stroke-width="26" stroke-linecap="round"/>
+  <path d="M678 638H900" stroke="#D7ECF9" stroke-width="26" stroke-linecap="round"/>
+  <path d="M678 702H850" stroke="#D7ECF9" stroke-width="26" stroke-linecap="round"/>
+  <text x="150" y="612" fill="#F8FBFF" font-family="Arial, sans-serif" font-size="72" font-weight="700">AC Repair</text>
+  <text x="150" y="676" fill="#9FD8FF" font-family="Arial, sans-serif" font-size="30" font-weight="600">Technician diagnostics and fault checks</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="120" y1="118" x2="1105" y2="806" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F9FDFF"/>
+      <stop offset="1" stop-color="#CDEEFF"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,19 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="40" fill="#EFFAFF"/>
+  <rect x="58" y="58" width="1084" height="784" rx="34" fill="url(#paint0_linear)"/>
+  <rect x="162" y="200" width="294" height="358" rx="30" fill="#0F3D6E"/>
+  <rect x="214" y="252" width="188" height="80" rx="18" fill="#F4CB57"/>
+  <circle cx="310" cy="430" r="74" fill="#D8EEF9"/>
+  <rect x="548" y="184" width="468" height="220" rx="30" fill="#FFFFFF" fill-opacity="0.68"/>
+  <path d="M590 520H988" stroke="#D4EAF7" stroke-width="28" stroke-linecap="round"/>
+  <path d="M590 594H924" stroke="#D4EAF7" stroke-width="28" stroke-linecap="round"/>
+  <path d="M590 668H870" stroke="#D4EAF7" stroke-width="28" stroke-linecap="round"/>
+  <text x="162" y="756" fill="#071B3D" font-family="Arial, sans-serif" font-size="70" font-weight="700">Tools and Preparation</text>
+  <text x="162" y="814" fill="#2E648F" font-family="Arial, sans-serif" font-size="30" font-weight="600">Workshop and equipment placeholder</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="84" y1="92" x2="1110" y2="832" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FCFEFF"/>
+      <stop offset="1" stop-color="#D9F2FF"/>
+    </linearGradient>
+  </defs>
+</svg>

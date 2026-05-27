@@ -1,0 +1,17 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="40" fill="#F4FCFF"/>
+  <rect x="58" y="58" width="1084" height="784" rx="34" fill="url(#paint0_linear)"/>
+  <rect x="162" y="188" width="876" height="220" rx="34" fill="#0F3D6E"/>
+  <rect x="248" y="256" width="704" height="92" rx="22" fill="#EAF7FF"/>
+  <circle cx="876" cy="302" r="20" fill="#38BDF8"/>
+  <path d="M248 508C334 464 434 464 520 508C606 552 706 552 792 508C878 464 978 464 1064 508" stroke="#7DD3FC" stroke-width="22" stroke-linecap="round"/>
+  <path d="M248 590C334 546 434 546 520 590C606 634 706 634 792 590C878 546 978 546 1064 590" stroke="#7DD3FC" stroke-width="22" stroke-linecap="round"/>
+  <text x="162" y="738" fill="#071B3D" font-family="Arial, sans-serif" font-size="70" font-weight="700">Deep-cleaned Indoor Unit</text>
+  <text x="162" y="796" fill="#2E648F" font-family="Arial, sans-serif" font-size="30" font-weight="600">Premium before-and-after style placeholder</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="84" y1="92" x2="1112" y2="832" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FCFEFF"/>
+      <stop offset="1" stop-color="#DEF4FF"/>
+    </linearGradient>
+  </defs>
+</svg>

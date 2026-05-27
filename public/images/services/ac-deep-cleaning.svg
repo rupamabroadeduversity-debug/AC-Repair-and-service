@@ -1,0 +1,22 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="40" fill="#F4FCFF"/>
+  <rect x="58" y="58" width="1084" height="784" rx="34" fill="url(#paint0_linear)"/>
+  <rect x="148" y="174" width="432" height="198" rx="30" fill="#0F3D6E"/>
+  <rect x="208" y="228" width="312" height="92" rx="18" fill="#E9F6FF"/>
+  <circle cx="472" cy="274" r="20" fill="#38BDF8"/>
+  <path d="M280 448C360 400 464 420 528 494" stroke="#99D8FF" stroke-width="24" stroke-linecap="round"/>
+  <path d="M246 532C332 474 452 492 530 586" stroke="#99D8FF" stroke-width="24" stroke-linecap="round"/>
+  <path d="M706 194H996" stroke="#D8EDF8" stroke-width="28" stroke-linecap="round"/>
+  <path d="M706 268H948" stroke="#D8EDF8" stroke-width="28" stroke-linecap="round"/>
+  <rect x="670" y="364" width="352" height="250" rx="30" fill="#FFFFFF" fill-opacity="0.64"/>
+  <circle cx="844" cy="488" r="76" fill="#F5D05B"/>
+  <path d="M844 434L860 480L906 496L860 512L844 558L828 512L782 496L828 480L844 434Z" fill="#0F3D6E"/>
+  <text x="148" y="740" fill="#071B3D" font-family="Arial, sans-serif" font-size="64" font-weight="700">AC Deep Cleaning</text>
+  <text x="148" y="796" fill="#2E648F" font-family="Arial, sans-serif" font-size="30" font-weight="600">Coils, filters, drainage, and airflow paths</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="86" y1="90" x2="1110" y2="832" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FCFEFF"/>
+      <stop offset="1" stop-color="#DDF3FF"/>
+    </linearGradient>
+  </defs>
+</svg>
